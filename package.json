@@ -1,0 +1,50 @@
+{
+  "name": "@mlz/gulp-amd-bundler",
+  "version": "2.0.0",
+  "description": "Make an AMD moudle and its relative depended moudles into one file.",
+  "keywords": [
+    "amd",
+    "bundler",
+    "gulpplugin"
+  ],
+  "homepage": "https://github.com/juicecube/gulp-amd-bundler",
+  "author": {
+    "name": "Gary Wang",
+    "email": "webyom@gmail.com",
+    "url": "http://webyom.org"
+  },
+  "contributors": [
+    {
+      "name": "Eric Tian",
+      "email": "tianxing0923@qq.com",
+      "url": "https://github.com/tianxing0923"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicecube/gulp-amd-bundler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juicecube/gulp-amd-bundler/issues"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "async": "^3.2.1",
+    "clean-css": "^5.1.5",
+    "coffee-react-transform": "^5.0.0",
+    "coffee-script": "^1.7.1",
+    "gulp": "^4.0.2",
+    "gulp-amd-dependency": "^1.10.0",
+    "gulp-coffee": "^3.0.3",
+    "gulp-img-css-sprite": "^0.6.0",
+    "mkdirp": "^1.0.4",
+    "plugin-error": "^1.0.1",
+    "q": "^1.5.1",
+    "through2": "^4.0.2",
+    "uglify-js": "^3.14.1",
+    "underscore": "^1.13.1"
+  }
+}
