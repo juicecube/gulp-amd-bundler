@@ -32,6 +32,7 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
+    "@mlz/gulp-mt2amd": "^2.0.0",
     "async": "^3.2.1",
     "clean-css": "^5.1.5",
     "coffee-react-transform": "^5.0.0",
